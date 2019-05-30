@@ -2,12 +2,9 @@ package common
 
 import "log"
 
+// HandleError to handle error message on log
 func HandleError(err error, message string) {
 	if err != nil {
-		log.Fatal("%s: %s", message, err)
+		log.Fatal(message, err)
 	}
-}
-
-type StatusCode struct {
-	Status string
 }
