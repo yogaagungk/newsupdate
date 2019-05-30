@@ -1,4 +1,4 @@
-# newsupdate
+# NewsUpdate
 Port        : 5045
 
 Endpoint    :
